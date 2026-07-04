@@ -1,0 +1,54 @@
+2026-07-03 07:16:27 | INFO     | core.cleaning_engine | History: applied 'fill_median' on ['Age'] -> fill_median on Missing Values
+2026-07-03 07:16:27 | INFO     | core.cleaning_engine | History: applied 'drop_duplicate_rows' on [] -> drop_duplicate_rows on Duplicate Rows
+2026-07-03 07:16:27 | INFO     | core.cleaning_engine | History: applied 'drop_duplicate_columns' on ['Duplicate_of_ID'] -> drop_duplicate_columns on Duplicate Columns
+2026-07-03 07:16:27 | INFO     | core.cleaning_engine | History: applied 'drop_columns' on ['Constant'] -> drop_columns on Constant Columns
+2026-07-03 07:16:27 | INFO     | core.cleaning_engine | History: applied 'trim_spaces' on ['Name'] -> trim_spaces on Whitespace Issues
+2026-07-03 07:16:27 | INFO     | core.cleaning_engine | History: applied 'title_case' on ['Name', 'City'] -> title_case on Inconsistent Capitalization
+2026-07-03 08:14:28 | INFO     | core.cleaning_engine | History: applied 'drop_duplicate_rows' on [] -> Duplicate Rows
+2026-07-03 08:14:28 | INFO     | core.cleaning_engine | History: applied 'fill_median' on ['Age'] -> Missing Values
+2026-07-03 08:14:28 | INFO     | core.cleaning_engine | History: applied 'trim_spaces' on ['Name'] -> Whitespace Issues
+2026-07-03 08:14:28 | INFO     | core.cleaning_engine | History: applied 'title_case' on ['Name', 'City'] -> Inconsistent Capitalization
+2026-07-03 13:47:31 | INFO     | core.data_loader | Loaded CSV 'sample_messy_dataset.csv' with encoding=utf-8, sep=',' -> shape=(210, 10)
+2026-07-03 13:48:29 | INFO     | core.cleaning_engine | History: applied 'fill_median' on ['Age', 'Salary'] -> Fill with Median on Missing Values
+2026-07-03 13:48:51 | INFO     | core.cleaning_engine | History: applied 'drop_duplicate_rows' on [] -> Remove Duplicates (keep first) on Duplicate Rows
+2026-07-03 13:49:04 | INFO     | core.cleaning_engine | History: applied 'drop_duplicate_columns' on ['CustomerID_Copy'] -> Drop Redundant Column(s) on Duplicate Columns
+2026-07-03 13:49:14 | INFO     | core.cleaning_engine | History: applied 'drop_columns' on ['Region'] -> Drop Column(s) on Constant Columns
+2026-07-03 13:49:41 | INFO     | core.cleaning_engine | History: applied 'frequency_encoding' on ['JoinDate'] -> Frequency Encoding on High Cardinality Columns
+2026-07-03 13:49:58 | INFO     | core.cleaning_engine | History: applied 'trim_spaces' on ['Name', 'City'] -> Trim Whitespace on Whitespace Issues
+2026-07-03 13:51:20 | INFO     | core.cleaning_engine | History: applied 'title_case' on ['Name', 'City', 'IsActive'] -> Convert To Title Case on Inconsistent Capitalization
+2026-07-04 12:47:44 | INFO     | core.data_loader | Loaded CSV 'sample_messy_dataset.csv' with encoding=utf-8, sep=',' -> shape=(210, 10)
+2026-07-04 12:48:32 | INFO     | core.cleaning_engine | History: applied 'fill_median' on ['Age', 'Salary'] -> Fill with Median on Missing Values
+2026-07-04 12:48:46 | INFO     | core.cleaning_engine | History: applied 'drop_duplicate_rows' on [] -> Remove Duplicates (keep first) on Duplicate Rows
+2026-07-04 12:49:00 | INFO     | core.cleaning_engine | History: applied 'drop_duplicate_columns' on ['CustomerID_Copy'] -> Drop Redundant Column(s) on Duplicate Columns
+2026-07-04 12:49:14 | INFO     | core.cleaning_engine | History: applied 'drop_columns' on ['Region'] -> Drop Column(s) on Constant Columns
+2026-07-04 12:49:31 | INFO     | core.cleaning_engine | History: applied 'frequency_encoding' on ['JoinDate'] -> Frequency Encoding on High Cardinality Columns
+2026-07-04 15:02:47 | INFO     | core.data_loader | Loaded CSV 'sample_messy_dataset.csv' with encoding=utf-8, sep=',' -> shape=(210, 10)
+2026-07-04 21:34:59 | INFO     | core.data_loader | Loaded CSV 'sample_messy_dataset.csv' with encoding=utf-8, sep=',' -> shape=(210, 10)
+2026-07-04 21:35:33 | INFO     | core.cleaning_engine | History: applied 'fill_median' on ['Age', 'Salary'] -> Fill with Median on Missing Values
+2026-07-04 21:35:57 | INFO     | core.cleaning_engine | History: applied 'drop_duplicate_rows' on [] -> Remove Duplicates (keep first) on Duplicate Rows
+2026-07-04 21:36:10 | INFO     | core.cleaning_engine | History: applied 'drop_duplicate_columns' on ['CustomerID_Copy'] -> Drop Redundant Column(s) on Duplicate Columns
+2026-07-04 21:36:31 | INFO     | core.cleaning_engine | History: applied 'drop_columns' on ['Region'] -> Drop Column(s) on Constant Columns
+2026-07-04 21:36:45 | INFO     | core.cleaning_engine | History: applied 'frequency_encoding' on ['JoinDate'] -> Frequency Encoding on High Cardinality Columns
+2026-07-04 21:37:00 | INFO     | core.cleaning_engine | History: applied 'trim_spaces' on ['Name', 'City'] -> Trim Whitespace on Whitespace Issues
+2026-07-04 21:37:14 | INFO     | core.cleaning_engine | History: applied 'title_case' on ['Name', 'City', 'IsActive'] -> Convert To Title Case on Inconsistent Capitalization
+2026-07-04 21:38:37 | ERROR    | core.ai_engine | Failed to parse AI JSON response: Expecting ',' delimiter: line 22 column 191 (char 1497)
+Raw: {
+  "dataset_summary": "This dataset appears to contain information about employees, including demographics and job details.",
+  "business_domain": "HR",
+  "column_meanings": {
+    "CustomerID": "Unique identifier for each employee",
+    "Name": "Employee name",
+    "City": "Employee city of residence",
+    "Age": "Employee age in years",
+    "Salary": "Employee salary amount",
+    "Department": "Employee department or team",
+    "IsActive": "Whether the employee is currently active or not",
+   
+2026-07-04 21:46:08 | INFO     | core.data_loader | Loaded CSV 'sample_messy_dataset.csv' with encoding=utf-8, sep=',' -> shape=(210, 10)
+2026-07-04 21:47:13 | INFO     | core.cleaning_engine | History: applied 'fill_median' on ['Age', 'Salary'] -> Fill with Median on Missing Values
+2026-07-04 21:47:27 | INFO     | core.cleaning_engine | History: applied 'drop_duplicate_rows' on [] -> Remove Duplicates (keep first) on Duplicate Rows
+2026-07-04 21:47:52 | INFO     | core.cleaning_engine | History: applied 'drop_duplicate_columns' on ['CustomerID_Copy'] -> Drop Redundant Column(s) on Duplicate Columns
+2026-07-04 21:48:05 | INFO     | core.cleaning_engine | History: applied 'drop_columns' on ['Region'] -> Drop Column(s) on Constant Columns
+2026-07-04 21:48:43 | INFO     | core.cleaning_engine | History: applied 'frequency_encoding' on ['JoinDate'] -> Frequency Encoding on High Cardinality Columns
+2026-07-04 21:49:02 | INFO     | core.cleaning_engine | History: applied 'trim_spaces' on ['Name', 'City'] -> Trim Whitespace on Whitespace Issues
+2026-07-04 21:49:32 | INFO     | core.cleaning_engine | History: applied 'title_case' on ['Name', 'City', 'IsActive'] -> Convert To Title Case on Inconsistent Capitalization
