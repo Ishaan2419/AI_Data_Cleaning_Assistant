@@ -1,0 +1,14 @@
+streamlit>=1.37.0
+pandas>=2.2.0
+numpy>=1.26.0
+plotly>=5.22.0
+scikit-learn>=1.5.0
+scipy>=1.13.0
+openpyxl>=3.1.0
+xlsxwriter>=3.2.0
+ollama>=0.3.0
+matplotlib>=3.9.0
+missingno>=0.5.2
+phonenumbers>=8.13.0
+email-validator>=2.2.0
+Jinja2>=3.1.0
